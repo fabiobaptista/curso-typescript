@@ -26,7 +26,7 @@ define(["require", "exports", "References", "AlertType", "BaseVM"], function (re
             this.isBusy(true);
             References_1.$.get('https://jsonplaceholder.typicode.com/photos', {})
                 .done(function () {
-                self.showAlert("Redirecionando...", AlertType_1.AlertType.success);
+                self.showAlert("Redirecionando... " + References_1.moment().format("L"), AlertType_1.AlertType.success);
             })
                 .fail(function () {
                 self.showAlert("Acesso negado cachoeira!", AlertType_1.AlertType.danger);

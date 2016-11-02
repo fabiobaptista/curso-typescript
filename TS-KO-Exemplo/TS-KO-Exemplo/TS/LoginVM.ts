@@ -1,4 +1,4 @@
-﻿import {ko, $} from "References";
+﻿import {ko, $, moment} from "References";
 
 import {AlertType} from "AlertType";
 import {BaseVM} from "BaseVM";
@@ -31,7 +31,7 @@ class LoginVM extends BaseVM {
         this.isBusy(true);
         $.get('https://jsonplaceholder.typicode.com/photos', {})
             .done(function () {
-                self.showAlert("Redirecionando...", AlertType.success);
+                self.showAlert("Redirecionando... " + moment().format("L"), AlertType.success);
             })
             .fail(function () {
                 self.showAlert("Acesso negado cachoeira!", AlertType.danger); 

@@ -1,4 +1,4 @@
-﻿import {ko, $} from "References";
+﻿import {ko} from "References";
 import {AlertType} from "AlertType";
 
 export class BaseVM {

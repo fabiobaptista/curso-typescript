@@ -1,3 +1,5 @@
 ﻿import * as ko from "knockout";
 import * as $ from "jquery";
-export {ko, $};
+import * as moment from "moment";
+
+export {ko, $, moment};
