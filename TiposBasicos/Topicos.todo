@@ -1,0 +1,18 @@
+✔ - # Tipos Básicos (TiposBasicos) @done (24/10/2016 10:30:28)
+    ✔ - Boolean @done (24/10/2016 09:31:29)
+    ✔ - Number @done (24/10/2016 09:31:34)
+    ✔ - String @done (24/10/2016 09:43:16)
+        ✔ - Template string @done (24/10/2016 09:43:15)
+            ✔ - Multiline @done (24/10/2016 09:43:13)
+            ✔ - Interpolação @done (24/10/2016 09:43:14)
+            ✘ - Tagged templates @cancelled (24/10/2016 09:37:07)
+    ✔ - Array @done (24/10/2016 09:43:09)
+    ✔ - Tuple @done (24/10/2016 09:43:10)
+    ✔ - Any @done (24/10/2016 10:11:15)
+    ✔ - Void @done (24/10/2016 10:14:28)
+    ✔ - Null e Undefined @done (24/10/2016 10:14:29)
+    ✔ - Never @done (24/10/2016 10:16:13)
+
+    ✔ - Date @done (24/10/2016 10:30:22)
+
+    ✔ - Type assertions (Cast) @done (24/10/2016 10:42:10)
